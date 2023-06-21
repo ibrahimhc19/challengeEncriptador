@@ -1,3 +1,10 @@
 *{
   font-family: 'Montserrat', sans-serif;
+  background-color: #F3F5FC;
+  box-sizing: border-box;
+}
+.btn{
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
 }
