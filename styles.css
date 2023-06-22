@@ -1,0 +1,63 @@
+/* Styles */
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+html {
+	background-color: #F3F5FC;
+}
+
+.div-header{
+	/* width: 80%;  */
+	background-color: aliceblue;
+	margin: 0rem auto; 
+	height: 9rem; 
+}
+.logoAlura {
+	padding-top: 3rem; 
+	float: left; 
+	margin-left: 5rem;
+}
+
+.logoOne{
+	height: 9rem;
+	 float: right; 
+	 margin-right: 5rem;
+	}
+	.container{
+		/* width: 80%;  */
+		height: 100vh; 
+		display: flex; 
+		margin: 1rem auto;
+		/* background-color: aqua; */
+	}
+	.txt-wrapper{
+		margin: 1rem auto; 
+		display: block;
+		/* background-color: aqua; */
+	}
+	.pairOfBtns{
+		display: flex;
+	}
+	section div textarea {
+		border-radius: 2rem;
+		padding: 2rem;
+		margin: 0 1rem;
+		height: 26rem;
+		width: 21rem;
+	}
+	.paraDesencriptar{
+		background: url(imagenes/Muñeco.png) no-repeat center;
+	}
+
+	.btnclss{
+		width: 10rem;
+		height: 2rem;
+		border-radius: 2rem;
+		margin: 1rem;
+		border: none;
+	}
+	.botoes{
+		width: 25rem;
+		/* background-color: aqua; */
+		margin: 0 1rem;
+	}
