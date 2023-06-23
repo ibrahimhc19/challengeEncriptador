@@ -8,18 +8,18 @@ html {
 
 .div-header{
 	/* width: 80%;  */
-	background-color: aliceblue;
+	background-color: rgb(188, 221, 250);
 	margin: 0rem auto; 
-	height: 9rem; 
+	height: 8rem; 
 }
 .logoAlura {
-	padding-top: 3rem; 
+	padding-top:2.5rem; 
 	float: left; 
 	margin-left: 5rem;
 }
 
 .logoOne{
-	height: 9rem;
+	 height: 8rem;
 	 float: right; 
 	 margin-right: 5rem;
 	}
