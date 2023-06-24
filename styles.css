@@ -136,6 +136,11 @@ a {
 /* Media queries */
 
 @media only screen and (max-width: 873px) {
+	.btnclss, .btnclss:hover, .btnclss:active, .btnclss:focus{
+		animation: none;
+		transition: none;
+		transform: none;
+	}
 	.logoGithub {
 		display: none;
 	}
