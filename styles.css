@@ -1,5 +1,6 @@
 * {
 	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
 }
 
 html {
@@ -8,14 +9,6 @@ html {
 
 .div-header {
 	height: 8rem;
-	margin: 0rem auto;
-	border-bottom: 1px white;
-}
-
-.logoAlura {
-	float: left;
-	margin-left: 5rem;
-	padding-top: 2.5rem;
 }
 
 .logoGithub {
@@ -24,8 +17,8 @@ html {
 }
 
 .logoOne {
-	height: 8rem;
 	float: left;
+	height: 8rem;
 	margin-left: 5rem;
 }
 
@@ -75,16 +68,14 @@ a img,
 	transition-timing-function: ease;
 }
 
-/*change the number below to scale to the appropriate size*/
 a img:hover,
 .btnclss:hover {
 	transform: scale(1.2);
-
 }
 
 .paraDesencriptar {
 	border: solid 3px white;
-	background: url(imagenes/Muñeco.png) no-repeat center;
+	background: url(imagenes/Frame\ 6.png) no-repeat center;
 }
 
 .btnclss {
@@ -101,8 +92,8 @@ a img:hover,
 }
 
 .btnclss:hover {
-	cursor: pointer;
 	outline: none;
+	cursor: pointer;
 	border-color: #7eb2e9;
 	box-shadow: 0 0 1rem #719ECE;
 }
@@ -121,7 +112,25 @@ a img:hover,
 
 footer {
 	height: 8rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 	background-color: #6b89eb;
+}
+
+.txt-container {
+	text-align: center;
+}
+
+.txt-container p {
+	padding: .2rem;
+	font-size: 1rem;
+	color: whitesmoke;
+}
+
+a {
+	color: inherit;
 }
 
 /* Media queries */
@@ -145,10 +154,6 @@ footer {
 		width: 17rem;
 		height: 10rem;
 		margin-bottom: 1rem;
-	}
-
-	.paraDesencriptar {
-		background-size: contain;
 	}
 
 	.toCopy {
