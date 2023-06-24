@@ -18,10 +18,11 @@ html {
 	padding-top: 2.5rem;
 }
 
-.logoGithub{
+.logoGithub {
 	float: right;
 	margin-right: 5rem;
 }
+
 .logoOne {
 	height: 8rem;
 	float: left;
@@ -58,7 +59,8 @@ section div textarea {
 	font-size: 1.2rem;
 	border-radius: 2rem;
 }
-textarea:focus{
+
+textarea:focus {
 	outline: none;
 	border-color: #7eb2e9;
 	box-shadow: 0 0 1rem #719ECE;
@@ -84,7 +86,6 @@ textarea:focus{
 }
 
 .botoes {
-	/* width: 25rem; */
 	display: flex;
 	display: flex;
 	margin: 0 1rem;
@@ -92,41 +93,47 @@ textarea:focus{
 	justify-content: center;
 }
 
-.toCopy{
+.toCopy {
 	display: none;
 }
 
 /* Media queries */
 
 @media only screen and (max-width: 873px) {
-	.logoGithub{
+	.logoGithub {
 		display: none;
 	}
-	.logoOne{
+
+	.logoOne {
 		float: none;
 		display: block;
 		margin: 0 auto;
 	}
-	.btnclss{
+
+	.btnclss {
 		width: 8rem;
 	}
-	section div textarea{
+
+	section div textarea {
 		width: 17rem;
 		height: 10rem;
 		margin-bottom: 1rem;
 	}
-	.paraDesencriptar{
+
+	.paraDesencriptar {
 		background-size: contain;
 	}
-	.toCopy{
+
+	.toCopy {
 		display: none;
 	}
 
-@media only screen and (max-width: 593px) {
-	.logoAlura {
-		display: none;
+	@media only screen and (max-width: 593px) {
+		.logoAlura {
+			display: none;
+		}
+
+		.logoGithub {
+			display: none;
+		}
 	}
-	.logoGithub{
-		display: none;
-	}
-}
