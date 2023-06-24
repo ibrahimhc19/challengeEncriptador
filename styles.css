@@ -54,16 +54,32 @@ section div textarea {
 	padding: 2rem;
 	height: 21rem;
 	margin: 0 1rem;
-	color: #b6c7ff;
+	color: #747fa3;
 	font-weight: bold;
 	font-size: 1.2rem;
 	border-radius: 2rem;
 }
 
+textarea:hover,
 textarea:focus {
 	outline: none;
 	border-color: #7eb2e9;
 	box-shadow: 0 0 1rem #719ECE;
+}
+
+a img,
+.btnclss {
+	cursor: pointer;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+}
+
+/*change the number below to scale to the appropriate size*/
+a img:hover,
+.btnclss:hover {
+	transform: scale(1.2);
+
 }
 
 .paraDesencriptar {
@@ -76,13 +92,19 @@ textarea:focus {
 	height: 3rem;
 	margin: 1rem;
 	border: none;
-	color: #b6c7ff;
+	color: #747fa3;
 	font-size: 1.2rem;
 	font-weight: bold;
 	border-radius: 2rem;
-	color: rgb(36, 33, 33);
 	background-color: white;
 	border: solid 3px white;
+}
+
+.btnclss:hover {
+	cursor: pointer;
+	outline: none;
+	border-color: #7eb2e9;
+	box-shadow: 0 0 1rem #719ECE;
 }
 
 .botoes {
@@ -97,7 +119,7 @@ textarea:focus {
 	display: none;
 }
 
-footer{
+footer {
 	height: 8rem;
 	background-color: #6b89eb;
 }
@@ -142,3 +164,4 @@ footer{
 			display: none;
 		}
 	}
+}
