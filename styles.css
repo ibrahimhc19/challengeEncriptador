@@ -7,34 +7,38 @@ html {
 }
 
 .div-header {
-	margin: 0rem auto;
 	height: 8rem;
+	margin: 0rem auto;
 	border-bottom: 1px white;
 }
 
 .logoAlura {
-	padding-top: 2.5rem;
 	float: left;
 	margin-left: 5rem;
+	padding-top: 2.5rem;
 }
 
-.logoOne {
-	height: 8rem;
+.logoGithub{
 	float: right;
 	margin-right: 5rem;
+}
+.logoOne {
+	height: 8rem;
+	float: left;
+	margin-left: 5rem;
 }
 
 .container {
 	height: 100vh;
 	display: flex;
 	margin: 0 auto;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
 }
 
 .txt-wrapper {
-	margin: 1rem auto;
 	display: block;
+	margin: 1rem auto;
 	text-align: center;
 
 }
@@ -44,49 +48,85 @@ html {
 }
 
 section div textarea {
-	border-radius: 2rem;
-	padding: 2rem;
-	margin: 0 1rem;
-	height: 21rem;
-	width: 21rem;
 	border: none;
-	font-size: 1.2rem;
+	width: 21rem;
+	padding: 2rem;
+	height: 21rem;
+	margin: 0 1rem;
 	color: #b6c7ff;
 	font-weight: bold;
+	font-size: 1.2rem;
+	border-radius: 2rem;
+}
+textarea:focus{
+	outline: none;
+	border-color: #7eb2e9;
+	box-shadow: 0 0 1rem #719ECE;
 }
 
 .paraDesencriptar {
-	background: url(imagenes/Muñeco.png) no-repeat center;
 	border: solid 3px white;
+	background: url(imagenes/Muñeco.png) no-repeat center;
 }
 
 .btnclss {
 	width: 10rem;
 	height: 3rem;
-	border-radius: 2rem;
 	margin: 1rem;
 	border: none;
+	color: #b6c7ff;
 	font-size: 1.2rem;
 	font-weight: bold;
+	border-radius: 2rem;
+	color: rgb(36, 33, 33);
 	background-color: white;
 	border: solid 3px white;
-	color: #b6c7ff;
-	color: rgb(36, 33, 33);
 }
 
 .botoes {
 	/* width: 25rem; */
+	display: flex;
+	display: flex;
 	margin: 0 1rem;
-	display: flex;
 	flex-wrap: wrap;
-	display: flex;
 	justify-content: center;
+}
+
+.toCopy{
+	display: none;
 }
 
 /* Media queries */
 
+@media only screen and (max-width: 873px) {
+	.logoGithub{
+		display: none;
+	}
+	.logoOne{
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	.btnclss{
+		width: 8rem;
+	}
+	section div textarea{
+		width: 17rem;
+		height: 10rem;
+		margin-bottom: 1rem;
+	}
+	.paraDesencriptar{
+		background-size: contain;
+	}
+	.toCopy{
+		display: none;
+	}
+
 @media only screen and (max-width: 593px) {
 	.logoAlura {
+		display: none;
+	}
+	.logoGithub{
 		display: none;
 	}
 }
