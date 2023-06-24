@@ -23,7 +23,7 @@ html {
 }
 
 .container {
-	height: 81vh;
+	height: 100vh;
 	display: flex;
 	margin: 0 auto;
 	align-items: center;
@@ -111,7 +111,7 @@ a img:hover,
 }
 
 footer {
-	height: 8rem;
+	height: 6rem;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -125,7 +125,7 @@ footer {
 
 .txt-container p {
 	padding: .2rem;
-	font-size: 1rem;
+	font-size: .7rem;
 	color: whitesmoke;
 }
 
