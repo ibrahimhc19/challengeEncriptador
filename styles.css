@@ -1,84 +1,92 @@
-/* Styles */
-*{
+* {
 	font-family: 'Ubuntu', sans-serif;
 }
+
 html {
-	background-color: #F3F5FC;
+	background-color: #b6c7ff;
 }
 
-.div-header{
-	/* width: 80%;  */
-	background-color: rgb(188, 221, 250);
-	margin: 0rem auto; 
-	height: 8rem; 
+.div-header {
+	margin: 0rem auto;
+	height: 8rem;
+	border-bottom: 1px white;
 }
+
 .logoAlura {
-	padding-top:2.5rem; 
-	float: left; 
+	padding-top: 2.5rem;
+	float: left;
 	margin-left: 5rem;
 }
 
-.logoOne{
-	 height: 8rem;
-	 float: right; 
-	 margin-right: 5rem;
-	}
-	.container{
+.logoOne {
+	height: 8rem;
+	float: right;
+	margin-right: 5rem;
+}
 
-		height: 100vh; 
-		display: flex; 
-		margin: 1rem auto;
-		flex-direction: column;
-		align-items: center;
-		/* justify-content: center; */
+.container {
+	height: 100vh;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	align-items: center;
+}
 
-	}
-	.txt-wrapper{
-		margin: 1rem auto; 
-		display: block;
-		text-align: center;
+.txt-wrapper {
+	margin: 1rem auto;
+	display: block;
+	text-align: center;
 
-	}
-	.pairOfBtns{
-		display: flex;
-	}
-	section div textarea {
-		border-radius: 2rem;
-		padding: 2rem;
-		margin: 0 1rem;
-		height: 24rem;
-		width: 21rem;
-		border: none;
-	}
-	.paraDesencriptar{
-		background: url(imagenes/Muñeco.png) no-repeat center;
-		border: solid 3px white;
-	}
+}
 
-	.btnclss{
-		width: 10rem;
-		height: 3rem;
-		border-radius: 2rem;
-		margin: 1rem;
-		border: none;
-		font-size: 1.1rem;
-		font-weight: bold;
-		background-color: rgb(188, 221, 250);
-		border:  solid 3px white;
-		/* color: #F3F5FC; */
-	}
-	.botoes{
-		width: 25rem;
-		margin: 0 1rem;
-		display: flex;
-		flex-wrap: wrap;
-		display: flex;
-		justify-content: center;
-	}
+.pairOfBtns {
+	display: flex;
+}
 
+section div textarea {
+	border-radius: 2rem;
+	padding: 2rem;
+	margin: 0 1rem;
+	height: 21rem;
+	width: 21rem;
+	border: none;
+	font-size: 1.2rem;
+	color: #b6c7ff;
+	font-weight: bold;
+}
 
-	@media only screen and (max-width: 593px) {
-    .logoAlura {
-      display: none;
-    }
+.paraDesencriptar {
+	background: url(imagenes/Muñeco.png) no-repeat center;
+	border: solid 3px white;
+}
+
+.btnclss {
+	width: 10rem;
+	height: 3rem;
+	border-radius: 2rem;
+	margin: 1rem;
+	border: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	background-color: white;
+	border: solid 3px white;
+	color: #b6c7ff;
+	color: rgb(36, 33, 33);
+}
+
+.botoes {
+	/* width: 25rem; */
+	margin: 0 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 593px) {
+	.logoAlura {
+		display: none;
 	}
+}
