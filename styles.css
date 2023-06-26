@@ -23,7 +23,7 @@ html {
 }
 
 .container {
-	height: 100vh;
+	height: 85vh;
 	display: flex;
 	margin: 0 auto;
 	align-items: center;
@@ -156,8 +156,8 @@ a {
 	}
 
 	section div textarea {
-		width: 17rem;
-		height: 10rem;
+		width: 16rem;
+		height: 8rem;
 		margin-bottom: 1rem;
 	}
 
