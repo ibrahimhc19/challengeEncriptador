@@ -8,11 +8,12 @@
 }
 html {
 	background-color: #b6c7ff;
-	/* background: var(--bg-color); */
+	background: var(--bg-color);
 }
 
 .div-header {
 	height: 8rem;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .logoGithub {
@@ -30,7 +31,7 @@ html {
 	height: 92vh;
 	/* height: calc(100vh - 13rem); */
 	display: flex;
-	margin: 0 auto;
+	margin: 6rem auto;
 	align-items: center;
 	flex-direction: column;
 }
@@ -121,7 +122,7 @@ footer {
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #6b89eb;
+	background-color: #a0b5fd;
 }
 
 .txt-container {
