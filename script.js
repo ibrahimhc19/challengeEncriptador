@@ -8,9 +8,10 @@ const paraDesencriptar = document.querySelector(".paraDesencriptar");
 // La letra "u" es convertida para "ufat"
 
 
+
 function encriptar(textoEncriptado) {
     let arregloCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
-    textoEncriptado = textoEncriptado.toLowercase();
+    textoEncriptado = textoEncriptado.toLowerCase();
 
     for (let i = 0; i < arregloCodigo.length; i++) {
         if (textoEncriptado.includes(arregloCodigo[i][0])) {
