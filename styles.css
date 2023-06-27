@@ -2,12 +2,16 @@
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
 }
-:root{
-	--bg-color: linear-gradient(217deg,#F1B6E0,rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #B3B0F8, rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, #8ADDF8, rgba(0, 0, 255, 0) 70.71%);
+
+:root {
+	--bg-color: linear-gradient(217deg, #F1B6E0, rgba(255, 0, 0, 0) 70.71%), 
+							linear-gradient(127deg, #B3B0F8, rgba(0, 255, 0, 0) 70.71%), 
+							linear-gradient(336deg, #8ADDF8, rgba(0, 0, 255, 0) 70.71%);
 
 }
+
 html {
-	background-color: #b6c7ff;
+	/* background-color: #b6c7ff; */
 	background: var(--bg-color);
 }
 
@@ -142,11 +146,16 @@ a {
 /* Media queries */
 
 @media only screen and (max-width: 873px) {
-	.btnclss, .btnclss:hover, .btnclss:active, .btnclss:focus{
+
+	.btnclss,
+	.btnclss:hover,
+	.btnclss:active,
+	.btnclss:focus {
 		animation: none;
 		transition: none;
 		transform: none;
 	}
+
 	.logoGithub {
 		display: none;
 	}

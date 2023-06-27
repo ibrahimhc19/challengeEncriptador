@@ -12,7 +12,7 @@ function encriptar(textoEncriptado) {
     let arregloCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
     textoEncriptado = textoEncriptado.toLowercase();
 
-    for (let i = o; i < arregloCodigo.length; i++) {
+    for (let i = 0; i < arregloCodigo.length; i++) {
         if (textoEncriptado.includes(arregloCodigo[i][0])) {
             textoEncriptado = textoEncriptado.replaceAll(arregloCodigo[i][0], arregloCodigo[i][1]);
         }
@@ -21,7 +21,7 @@ function encriptar(textoEncriptado) {
 }
 
 function botonEncriptar() {
-    const textoEncriptado = encriptar(paraEncriptar.value);
-    paraDesencriptar.value = textoEncriptado;
+    const stringEncriptado = encriptar(paraEncriptar.value);
+    paraDesencriptar.value = stringEncriptado;
 
 }
