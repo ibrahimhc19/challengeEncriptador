@@ -27,7 +27,7 @@ html {
 }
 
 .container {
-	height: 87vh;
+	height: 92vh;
 	/* height: calc(100vh - 13rem); */
 	display: flex;
 	margin: 0 auto;
