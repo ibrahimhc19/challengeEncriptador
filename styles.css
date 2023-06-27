@@ -111,7 +111,7 @@ a img:hover,
 .botoes {
 	display: flex;
 	display: flex;
-	margin: 0 1rem;
+	margin: 1rem;
 	flex-wrap: wrap;
 	justify-content: center;
 }

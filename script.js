@@ -9,20 +9,40 @@ const paraDesencriptar = document.querySelector(".paraDesencriptar");
 
 
 
-function encriptar(textoEncriptado) {
+function encriptar(textoParaEncriptar) {
     let arregloCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
-    textoEncriptado = textoEncriptado.toLowerCase();
+    textoParaEncriptar = textoParaEncriptar.toLowerCase();
 
     for (let i = 0; i < arregloCodigo.length; i++) {
-        if (textoEncriptado.includes(arregloCodigo[i][0])) {
-            textoEncriptado = textoEncriptado.replaceAll(arregloCodigo[i][0], arregloCodigo[i][1]);
+        if (textoParaEncriptar.includes(arregloCodigo[i][0])) {
+            textoParaEncriptar = textoParaEncriptar.replaceAll(arregloCodigo[i][0], arregloCodigo[i][1]);
         }
     }
-    return textoEncriptado;
+    return textoParaEncriptar;
 }
 
 function botonEncriptar() {
     const stringEncriptado = encriptar(paraEncriptar.value);
     paraDesencriptar.value = stringEncriptado;
+    paraEncriptar.value = "";
+    paraDesencriptar.style.backgroundImage = "none";
+}
 
+function desencriptar(textoEncriptado) {
+    let arregloCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
+    textoEncriptado = textoEncriptado.toLowerCase();
+
+    for (let i = 0; i < arregloCodigo.length; i++) {
+        if (textoEncriptado.includes(arregloCodigo[i][1])) {
+            textoEncriptado = textoEncriptado.replaceAll(arregloCodigo[i][1], arregloCodigo[i][0]);
+        }
+    }
+    return textoEncriptado;
+}
+
+function botonDesencriptar() {
+    const stringDesencriptado = desencriptar(paraEncriptar.value);
+    paraEncriptar.value = "";
+    paraDesencriptar.value = stringDesencriptado;
+    paraDesencriptar.style.backgroundImage = "none";
 }
