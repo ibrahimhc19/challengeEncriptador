@@ -2,9 +2,13 @@
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
 }
+:root{
+	--bg-color: linear-gradient(217deg,#F1B6E0,rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #B3B0F8, rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, #8ADDF8, rgba(0, 0, 255, 0) 70.71%);
 
+}
 html {
 	background-color: #b6c7ff;
+	/* background: var(--bg-color); */
 }
 
 .div-header {
@@ -23,8 +27,8 @@ html {
 }
 
 .container {
-	/* height: 87vh; */
-	height: calc(100vh - 6rem);
+	height: 87vh;
+	/* height: calc(100vh - 13rem); */
 	display: flex;
 	margin: 0 auto;
 	align-items: center;
@@ -33,7 +37,7 @@ html {
 
 .txt-wrapper {
 	display: block;
-	margin: 1rem auto;
+	margin: 1rem auto 6rem;
 	text-align: center;
 
 }
@@ -112,7 +116,7 @@ a img:hover,
 }
 
 footer {
-	height: 6rem;
+	height: 5rem;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -126,7 +130,7 @@ footer {
 
 .txt-container p {
 	padding: .2rem;
-	font-size: .7rem;
+	font-size: .8rem;
 	color: whitesmoke;
 }
 
@@ -158,7 +162,7 @@ a {
 
 	section div textarea {
 		width: 60%;
-		height: 8rem;
+		height: 6rem;
 		margin-bottom: 1rem;
 	}
 
