@@ -46,3 +46,7 @@ function botonDesencriptar() {
     paraDesencriptar.value = stringDesencriptado;
     paraDesencriptar.style.backgroundImage = "none";
 }
+
+function copiar(){
+    let
+}

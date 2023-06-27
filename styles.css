@@ -35,7 +35,7 @@ html {
 	height: 92vh;
 	/* height: calc(100vh - 13rem); */
 	display: flex;
-	margin: 6rem auto;
+	margin: 4rem auto;
 	align-items: center;
 	flex-direction: column;
 }
@@ -172,7 +172,7 @@ a {
 
 	section div textarea {
 		width: 60%;
-		height: 6rem;
+		height: 8rem;
 		margin-bottom: 1rem;
 	}
 
