@@ -7,7 +7,7 @@
 	--bg-color: linear-gradient(217deg, #F1B6E0, rgba(255, 0, 0, 0) 70.71%), 
 							linear-gradient(127deg, #B3B0F8, rgba(0, 255, 0, 0) 70.71%), 
 							linear-gradient(336deg, #8ADDF8, rgba(0, 0, 255, 0) 70.71%);
-
+	--altura-nav-elementos : 6rem;
 }
 
 html {
@@ -16,26 +16,27 @@ html {
 }
 
 .div-header {
-	height: 8rem;
+	height: var(--altura-nav-elementos);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .logoGithub {
 	float: right;
+	height: var(--altura-nav-elementos);
 	margin-right: 5rem;
 }
 
 .logoOne {
 	float: left;
-	height: 8rem;
+	height: var(--altura-nav-elementos);
 	margin-left: 5rem;
 }
 
 .container {
-	height: 92vh;
+	height: 94vh;
 	/* height: calc(100vh - 13rem); */
 	display: flex;
-	margin: 4rem auto;
+	margin: 3rem auto;
 	align-items: center;
 	flex-direction: column;
 }
