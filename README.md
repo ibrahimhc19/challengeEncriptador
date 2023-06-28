@@ -24,7 +24,8 @@ Para hacer que el proyecto sea más atractivo y profesional, he realizado alguna
 
 ## Demostración
 
-Puedes ver una demostración del proyecto en vivo en el siguiente enlace:
+Puedes ver una demostración del proyecto en vivo en el siguiente enlace: [Demo.mp4](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/imagenes/Demo.mp4)
+
 
 ## Capturas de pantalla
 
@@ -32,15 +33,15 @@ Aquí se presentan algunas capturas de pantalla del proyecto en diferentes dispo
 
 ### Vista Desktop
 
-![Encriptador de Texto - Vista Desktop](screenshots/desktop.png)
+![Encriptador de Texto - Vista Desktop](imagenes/desktop.png)
 
 ### Vista Tablet
 
-![Encriptador de Texto - Vista Tablet](screenshots/tablet.png)
+![Encriptador de Texto - Vista Tablet](imagenes/tablet.png)
 
 ### Vista Smartphone
 
-![Encriptador de Texto - Vista Smartphone](screenshots/smartphone.png)
+![Encriptador de Texto - Vista Smartphone](imagenes/smartphone.png)
 
 ## Puedes ver la página acá:
 
@@ -48,11 +49,15 @@ https://ibrahimhc19.github.io/challengeEncriptador/
 
 ## Recursos utilizados
 
-- Imagen del logo de Alura: [alura-logo.png](images/alura-logo.png)
-- Imagen para el área de texto encriptado: [encrypted-text.png](images/encrypted-text.png)
-- CSS personalizado: [styles.css](css/styles.css)
-- Imagen de muestra en el header: [header-image.png](images/header-image.png)
+- Imagen del logo de Alura: [aluraoracle.png](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/imagenes/aluraoracle.png)
+- Imagen para el área de texto encriptado: [Frame 6.png](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/imagenes/Frame%206.png)
+- CSS Reset: [reset.css](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/reset.css)
+- Imagen Github Ibrahim Calzadilla: [github-Ibrahimhc19.png](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/imagenes/github-Ibrahimhc19.png)
 
 ## Autor
 
-Este proyecto fue desarrollado por [Tu Nombre](https://github.com/tu-usuario).
+Este proyecto fue desarrollado por [Ibrahim Calzadilla Rada](https://github.com/ibrahimhc19).
+
+<!-- ## Licencia
+
+Este proyecto está bajo la [Licencia MIT](LICENSE). -->
