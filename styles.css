@@ -7,7 +7,7 @@
 	--bg-color: linear-gradient(217deg, #F1B6E0, rgba(255, 0, 0, 0) 70.71%), 
 							linear-gradient(127deg, #B3B0F8, rgba(0, 255, 0, 0) 70.71%), 
 							linear-gradient(336deg, #8ADDF8, rgba(0, 0, 255, 0) 70.71%);
-	--altura-nav-elementos : 6rem;
+	--altura-nav-elementos : 7rem;
 }
 
 html {
@@ -33,7 +33,7 @@ html {
 }
 
 .container {
-	height: 94vh;
+	height: 93vh;
 	/* height: calc(100vh - 13rem); */
 	display: flex;
 	margin: 3rem auto;
