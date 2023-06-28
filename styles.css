@@ -13,6 +13,7 @@
 html {
 	/* background-color: #b6c7ff; */
 	background: var(--bg-color);
+	margin: 0 auto;
 }
 
 .div-header {
