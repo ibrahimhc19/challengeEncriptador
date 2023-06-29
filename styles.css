@@ -101,6 +101,7 @@ a img:hover,
 	border-radius: 2rem;
 	background-color: white;
 	border: solid 3px white;
+	user-select: none;
 }
 
 .btnclss:hover {
@@ -109,6 +110,7 @@ a img:hover,
 	border-color: #7eb2e9;
 	box-shadow: 0 0 1rem #719ECE;
 }
+
 
 .botoes {
 	display: flex;
