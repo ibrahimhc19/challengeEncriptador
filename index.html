@@ -5,27 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Challenge Encriptador</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="favicon/site.webmanifest">
-  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
 
   <header>
     <div class="div-header">
-      <a href="https://github.com/ibrahimhc19" target="_blank"><img class="logoGithub" src="imagenes/github-Ibrahimhc19.png" alt="Logo usuario github Ibrahim Calzadilla"></a>
-      <a href="https://www.aluracursos.com/" target="_blank"><img class="logoOne" src="imagenes/aluraoracle.png"
+      <a href="https://github.com/ibrahimhc19" target="_blank"><img class="logoGithub" src="./imagenes/github-Ibrahimhc19.png" alt="Logo usuario github Ibrahim Calzadilla"></a>
+      <a href="https://www.aluracursos.com/" target="_blank"><img class="logoOne" src="./imagenes/aluraoracle.png"
           alt="Alura One Logo"></a>
     </div>
   </header>
@@ -34,13 +34,15 @@
     <section class="container">
       <div class="txt-wrapper">
         <div>
-          <textarea class="paraEncriptar" cols="30" rows="10" placeholder="Introduce el texto acá"></textarea>
-          <textarea class="paraDesencriptar" cols="30" rows="10""></textarea>
+          <p id="aviso"> <i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos</p>
+
+          <textarea id="campo1" class="paraEncriptar" cols="30" rows="10" placeholder="Introduce el texto acá"></textarea>
+          <textarea id="campo2" class="paraDesencriptar" cols="30" rows="10"></textarea>
       </div>
       <div class=" botoes">
         <button class="btnclss" onclick="botonEncriptar()">Encriptar</button>
         <button class="btnclss" onclick="botonDesencriptar()">Desencriptar</button>
-        <button class="toCopy btnclss" onclick="">Copiar</button>
+        <button id="copy" class="toCopy btnclss" onclick="copiar()">Copiar</button>
       </div>
     </section>
   </main>
@@ -52,6 +54,6 @@
       <p>Oracle Next Education - Alura 2023</p>
     </div>
   </footer>
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>

@@ -33,6 +33,16 @@ html {
 	margin-left: 5rem;
 }
 
+#aviso{
+	margin: 1rem;
+	color: #747fa3;
+	font-weight: bold;
+}
+
+i{
+	color: #747fa3;
+}
+
 .container {
 	height: 93vh;
 	/* height: calc(100vh - 13rem); */
@@ -87,7 +97,7 @@ a img:hover,
 
 .paraDesencriptar {
 	border: solid 3px white;
-	background: url(imagenes/Frame\ 6.png) no-repeat center;
+	background: url(./imagenes/a_de_alura.png) no-repeat center;
 }
 
 .btnclss {
@@ -109,6 +119,7 @@ a img:hover,
 	cursor: pointer;
 	border-color: #7eb2e9;
 	box-shadow: 0 0 1rem #719ECE;
+	-webkit-tap-highlight-color: transparent;
 }
 
 
@@ -171,7 +182,9 @@ a {
 	}
 
 	.btnclss {
-		width: 8rem;
+		width: 7rem;
+		height: 2rem;
+		font-size: 1rem;
 	}
 
 	section div textarea {
