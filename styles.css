@@ -48,7 +48,7 @@ i{
 	/* height: 95vh; */
 	height: calc(100vh - 5rem);
 	display: flex;
-	margin: 3rem auto;
+	margin: 1rem auto;
 	align-items: center;
 	flex-direction: column;
 }
