@@ -7,7 +7,8 @@
 	--bg-color: linear-gradient(217deg, #F1B6E0, rgba(255, 0, 0, 0) 70.71%), 
 							linear-gradient(127deg, #B3B0F8, rgba(0, 255, 0, 0) 70.71%), 
 							linear-gradient(336deg, #8ADDF8, rgba(0, 0, 255, 0) 70.71%);
-	--altura-nav-elementos : 7rem;
+	--altura-nav-elementos : 5rem;
+	--margin-nav-elementos : 10rem;
 }
 
 html {
@@ -24,13 +25,13 @@ html {
 .logoGithub {
 	float: right;
 	height: var(--altura-nav-elementos);
-	margin-right: 5rem;
+	margin-right: var(--margin-nav-elementos);
 }
 
 .logoOne {
 	float: left;
 	height: var(--altura-nav-elementos);
-	margin-left: 5rem;
+	margin-left: var(--margin-nav-elementos);
 }
 
 #aviso{
@@ -44,8 +45,8 @@ i{
 }
 
 .container {
-	height: 93vh;
-	/* height: calc(100vh - 13rem); */
+	/* height: 95vh; */
+	height: calc(100vh - 5rem);
 	display: flex;
 	margin: 3rem auto;
 	align-items: center;
@@ -182,8 +183,8 @@ a {
 	}
 
 	.btnclss {
-		width: 7rem;
-		height: 2rem;
+		width: 8rem;
+		height: 2.5rem;
 		font-size: 1rem;
 	}
 
@@ -198,9 +199,6 @@ a {
 	}
 
 	@media only screen and (max-width: 593px) {
-		.logoAlura {
-			display: none;
-		}
 
 		.logoGithub {
 			display: none;
