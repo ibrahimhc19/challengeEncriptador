@@ -8,7 +8,6 @@ const paraDesencriptar = document.querySelector(".paraDesencriptar");
 // La letra "u" es convertida para "ufat"
 
 
-
 // Funcion para encriptar
 function encriptar(textoParaEncriptar) {
   let arregloCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
@@ -22,15 +21,30 @@ function encriptar(textoParaEncriptar) {
   return textoParaEncriptar;
 }
 
+
+//Funcion validar texto
+function validarTextoEncriptar(texto) {
+  var patron = /^[a-z\s]+$/;
+  return patron.test(texto);
+}
+
 // Funcion para el boton de encriptar
 document.getElementById('encriptar').onclick = botonEncriptar;
 function botonEncriptar() {
-  const stringEncriptado = encriptar(paraEncriptar.value);
-  paraDesencriptar.value = stringEncriptado;
-  paraEncriptar.value = "";
-  paraDesencriptar.style.backgroundImage = "none";
-  let botonCopy = document.getElementById("copy");
-  botonCopy.style.display = "block";
+  const textoEncriptar = paraEncriptar.value;
+
+  if (validarTextoEncriptar(textoEncriptar)){
+    const stringEncriptado = encriptar(paraEncriptar.value);
+    paraDesencriptar.value = stringEncriptado;
+    paraEncriptar.value = "";
+    paraDesencriptar.style.backgroundImage = "none";
+    let botonCopy = document.getElementById("copy");
+    botonCopy.style.display = "block";
+  } else{
+    alert("Texto invalido, solo se permiten letras minúsculas y sin acentos")
+    paraEncriptar.value = ""
+  }
+
 }
 
 
@@ -55,22 +69,22 @@ function botonDesencriptar() {
   paraEncriptar.value = "";
   paraDesencriptar.value = stringDesencriptado;
   paraDesencriptar.style.backgroundImage = "none";
+  let botonCopy = document.getElementById("copy");
+  botonCopy.style.display = "block";
 }
 
 // Funcion para copiar al textarea1 y al portapapeles
 document.getElementById("copy").onclick=copiar;
 function copiar() {
-  let texto = document.getElementById("campo2").value;
-  document.getElementById("campo2").value = " ";
-  document.getElementById("campo1").value = texto;
+  let texto = paraDesencriptar.value;
+  navigator.clipboard.writeText(texto)
+  paraDesencriptar.value = " ";
+  paraEncriptar.value = texto;
 
   let botonCopy = document.getElementById("copy");
   botonCopy.style.display = "none";
 
   paraDesencriptar.style.backgroundImage = "";
-
-
-
-//   alert("Copiado al portapapeles y al campo de entrada");
+  alert("Copiado al portapapeles y al campo de entrada");
 
 }
