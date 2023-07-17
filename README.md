@@ -24,7 +24,7 @@ Para hacer que el proyecto sea más atractivo y profesional, he realizado alguna
 
 ## Demostración
 
-Puedes ver una demostración del proyecto en vivo en el siguiente enlace: [Demo.mp4](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/imagenes/Demo.mp4)
+Puedes ver una demostración del proyecto en vivo en el siguiente enlace: [Demo.gif](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/imagenes/Demo.gif)
 
 
 ## Capturas de pantalla
