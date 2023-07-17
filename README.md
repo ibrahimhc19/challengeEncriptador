@@ -50,7 +50,7 @@ https://ibrahimhc19.github.io/challengeEncriptador/
 ## Recursos utilizados
 
 - Imagen del logo de Alura: [aluraoracle.png](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/imagenes/aluraoracle.png)
-- Imagen para el área de texto encriptado: [Frame 6.png](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/imagenes/a_de_alura.png)
+- Imagen para el área de texto encriptado: [a_de_alura.png](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/imagenes/a_de_alura.png)
 - CSS Reset: [reset.css](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/reset.css)
 - Imagen Github Ibrahim Calzadilla: [github-Ibrahimhc19.png](https://github.com/ibrahimhc19/challengeEncriptador/blob/main/imagenes/github-Ibrahimhc19.png)
 
