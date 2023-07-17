@@ -144,6 +144,7 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	background-color: #a0b5fd;
+	position: relative;
 }
 
 .txt-container {
