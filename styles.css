@@ -11,10 +11,13 @@
 	--margin-nav-elementos : 10rem;
 }
 
-html {
+body {
 	/* background-color: #b6c7ff; */
 	background: var(--bg-color);
 	margin: 0 auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .div-header {
@@ -45,8 +48,8 @@ i{
 }
 
 .container {
-	/* height: 95vh; */
-	height: calc(100vh - 5rem);
+	height: 100vh; 
+	/* height: calc(100vh - 5rem); */
 	display: flex;
 	margin: 1rem auto;
 	align-items: center;
@@ -141,7 +144,7 @@ footer {
 	height: 5rem;
 	display: flex;
 	align-items: center;
-	flex-direction: column;
+	/* flex-direction: column; */
 	justify-content: center;
 	background-color: #a0b5fd;
 	position: relative;
